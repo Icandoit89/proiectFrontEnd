@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: antiquewhite;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+}
+
+.navContainer {
+  width: 100%;
+  background-color: aqua;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar {
+  display: flex;
+  justify-content: end;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 10px;
+  margin-right: 20px;
+  width: 100%;
+  height: 40px;
+}
+
+.navbar li {
+  margin: 0;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  display: block;
+  text-align: center;
+}
+
+.mainContainer {
+  width: 90%;
+  margin-top: 20px;
+  background-color: aqua;
+  padding: 20px;
+  border-radius: 60px;
+}
+
+.section1,
+.section2,
+.section3,
+.section4,
+.section5 {
+  margin-bottom: 40px;
+}
+
+.rand {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.tagColoana {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.tagColoana p {
+  background-color: sandybrown;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.tagColoana a {
+  text-decoration: none;
+  color: black;
+}
+
+.descriereColoana {
+  flex: 2;
+  border-color: black;
+}
+
+.descriereColoana p {
+  margin-bottom: 10px;
+}
+
+@media (min-width: 1200px) {
+  .mainContainer {
+    width: 90%;
+  }
+}
+
+@media (min-width: 1366px) {
+  .mainContainer {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1920px) {
+  .mainContainer {
+    width: 75%;
+  }
+}
+
+@media (min-width: 2560px) {
+  .mainContainer {
+    width: 70%;
+  }
+}

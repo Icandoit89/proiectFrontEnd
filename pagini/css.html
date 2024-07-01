@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ghid Proprietăți CSS</title>
+    <link rel="stylesheet" href="css.css" />
+  </head>
+  <body>
+    <div class="navContainer">
+      <ul class="navbar">
+        <li><a href="/index.html">Acasa</a></li>
+        <li><a href="despre.html">Despre pagina noastra</a></li>
+        <li><a href="tabele.html">Tabele</a></li>
+        <li><a href="formul.html">Formulare</a></li>
+        <li><a href="GitandGithub.html">GitandGitHub</a></li>
+      </ul>
+    </div>
+    <h1 class="titlu-principal">Ghid Proprietăți CSS</h1>
+    <main class="container-principal">
+      <div class="container-exemplu">
+        <h2>Exemple</h2>
+        <div class="exemplu">
+          <h3>Tipuri de Display</h3>
+          <p>display: block;</p>
+          <p>display: inline;</p>
+          <p>display: inline-block;</p>
+          <p>display: flex;</p>
+          <p>display: grid;</p>
+          <p>display: none;</p>
+        </div>
+        <div class="exemplu">
+          <h3>Tipuri de Position</h3>
+          <p>position: static;</p>
+          <p>position: relative;</p>
+          <p>position: absolute;</p>
+          <p>position: fixed;</p>
+          <p>position: sticky;</p>
+        </div>
+        <div class="exemplu">
+          <h3>Tipuri de CSS</h3>
+          <p>CSS Inline</p>
+          <p>CSS Intern</p>
+          <p>CSS Extern</p>
+        </div>
+        <div class="exemplu">
+          <h3>Margin și Padding</h3>
+          <p>margin: 20px;</p>
+          <p>padding: 20px;</p>
+        </div>
+        <div class="exemplu">
+          <h3>Flexbox</h3>
+          <p>display: flex;</p>
+          <p>justify-content: flex-start;</p>
+          <p>justify-content: center;</p>
+          <p>justify-content: flex-end;</p>
+          <p>justify-content: space-between;</p>
+          <p>justify-content: space-around;</p>
+          <p>align-items: flex-start;</p>
+          <p>align-items: center;</p>
+          <p>align-items: flex-end;</p>
+          <p>align-items: stretch;</p>
+          <p>flex-direction: row;</p>
+          <p>flex-direction: row-reverse;</p>
+          <p>flex-direction: column;</p>
+          <p>flex-direction: column-reverse;</p>
+        </div>
+      </div>
+      <div class="container-descriere">
+        <h2>Explicații</h2>
+        <div class="descriere">
+          <h3>Tipuri de Display</h3>
+          <p>
+            <strong>display: block;</strong> Elementul ocupă întreaga lățime
+            disponibilă și începe pe un nou rând.
+          </p>
+          <p>
+            <strong>display: inline;</strong> Elementul ocupă doar spațiul
+            necesar și nu începe pe un nou rând.
+          </p>
+          <p>
+            <strong>display: inline-block;</strong> Combină comportamentul
+            inline cu posibilitatea de a seta dimensiuni.
+          </p>
+          <p>
+            <strong>display: flex;</strong> Activează un container Flexbox
+            pentru a aranja elementele în rânduri sau coloane.
+          </p>
+          <p>
+            <strong>display: grid;</strong> Activează un container Grid pentru a
+            aranja elementele într-o structură de grilă bidimensională.
+          </p>
+          <p><strong>display: none;</strong> Ascunde elementul.</p>
+        </div>
+        <div class="descriere">
+          <h3>Tipuri de Position</h3>
+          <p>
+            <strong>position: static;</strong> Poziționarea implicită a
+            elementelor.
+          </p>
+          <p>
+            <strong>position: relative;</strong> Elementul este poziționat
+            relativ față de poziția sa normală.
+          </p>
+          <p>
+            <strong>position: absolute;</strong> Elementul este poziționat
+            relativ față de cel mai apropiat părinte poziționat.
+          </p>
+          <p>
+            <strong>position: fixed;</strong> Elementul este poziționat relativ
+            față de fereastra browserului.
+          </p>
+          <p>
+            <strong>position: sticky;</strong> Elementul este poziționat relativ
+            până când devine "lipicios" și se fixează în poziția definită în
+            fereastra vizibilă.
+          </p>
+        </div>
+        <div class="descriere">
+          <h3>Tipuri de CSS</h3>
+          <p>
+            <strong>CSS Inline</strong> Este aplicat direct pe elementul HTML
+            folosind atributul style.
+          </p>
+          <p>
+            <strong>CSS Intern</strong> Este definit în secțiunea head a
+            documentului HTML, între etichetele style.
+          </p>
+          <p>
+            <strong>CSS Extern</strong> Este stocat într-un fișier separat cu
+            extensia .css, iar documentul HTML face referire la acesta printr-un
+            link.
+          </p>
+        </div>
+        <div class="descriere">
+          <h3>Margin și Padding</h3>
+          <p>
+            <strong>margin:</strong> Este spațiul exterior al unui element,
+            adică distanța dintre element și celelalte elemente din jur.
+          </p>
+          <p>
+            <strong>padding:</strong> Este spațiul interior al unui element,
+            adică distanța dintre conținutul elementului și marginea acestuia.
+          </p>
+        </div>
+        <div class="descriere">
+          <h3>Flexbox</h3>
+          <p>
+            <strong>display: flex;</strong> Activează Flexbox pe un container.
+          </p>
+          <p>
+            <strong>justify-content:</strong> Aliniază elementele pe axa
+            principală (flex-start, flex-end, center, space-between,
+            space-around, space-evenly).
+          </p>
+          <p>
+            <strong>align-items:</strong> Aliniază elementele pe axa
+            transversală (flex-start, flex-end, center, baseline, stretch).
+          </p>
+          <p>
+            <strong>flex-direction:</strong> Defineste direcția în care sunt
+            așezate elementele (row, row-reverse, column, column-reverse).
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,133 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="gitandGithub.css" />
+    <title>Git și GitHub</title>
+  </head>
+  <body>
+    <div class="navContainer">
+      <ul class="navbar">
+        <li><a href="/index.html">Acasa</a></li>
+        <li><a href="css.html">CSS</a></li>
+        <li><a href="despre.html">Despre pagina noastra</a></li>
+        <li><a href="tabele.html">Tabele</a></li>
+        <li><a href="formul.html">Formulare</a></li>
+      </ul>
+    </div>
+    <section>
+      <div class="mainContainer">
+        <div class="row">
+          <div class="column left-column">
+            <h2>Git</h2>
+            <p>
+              Git este un sistem de control al versiunilor distribuit, folosit
+              pentru a urmări modificările în fișiere și pentru a coordona munca
+              mai multor oameni asupra proiectelor comune. A fost creat de Linus
+              Torvalds în 2005.
+            </p>
+            <h3>Comenzi Git</h3>
+            <ul>
+              <li>
+                <strong>git init</strong> - Inițializează un nou repository Git.
+              </li>
+              <li>
+                <strong>git clone [url]</strong> - Clonează un repository
+                existent.
+              </li>
+              <li>
+                <strong>git add [file]</strong> - Adaugă un fișier în staging
+                area.
+              </li>
+              <li>
+                <strong>git commit -m "mesaj"</strong> - Salvează modificările
+                în repository.
+              </li>
+              <li>
+                <strong>git push</strong> - Trimite modificările către
+                repository-ul remote.
+              </li>
+              <li>
+                <strong>git pull</strong> - Actualizează repository-ul local cu
+                modificările de pe repository-ul remote.
+              </li>
+            </ul>
+          </div>
+          <div class="column right-column">
+            <h2>GitHub</h2>
+            <p>
+              GitHub este o platformă de găzduire a codului sursă care folosește
+              Git pentru controlul versiunilor. Este utilizată pentru a colabora
+              la proiecte software și oferă diverse funcționalități, cum ar fi
+              pull requests, issues și GitHub Actions.
+            </p>
+            <h3>Comenzi GitHub</h3>
+            <ul>
+              <li>
+                <strong>gh repo create</strong> - Creează un nou repository
+                GitHub.
+              </li>
+              <li>
+                <strong>gh repo clone [repository]</strong> - Clonează un
+                repository GitHub.
+              </li>
+              <li>
+                <strong>gh issue create</strong> - Creează o nouă problemă
+                (issue) într-un repository.
+              </li>
+              <li>
+                <strong>gh pr create</strong> - Creează un nou pull request.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column left-column">
+            <h2>Creează un Repository Git în Visual Studio Code</h2>
+            <ol>
+              <li>Deschide Visual Studio Code.</li>
+              <li>Deschide terminalul integrat (View > Terminal).</li>
+              <li>
+                Navighează la directorul proiectului tău folosind comanda
+                <span>cd</span>.
+              </li>
+              <li>
+                Inițializează un nou repository Git folosind comanda
+                <span>git init</span>.
+              </li>
+              <li>
+                Adaugă fișierele în staging area folosind comanda
+                <span>git add .</span>.
+              </li>
+              <li>
+                Fă un commit inițial folosind comanda
+                <span>git commit -m "Initial commit"</span>.
+              </li>
+              <li>
+                Conectează repository-ul local la un repository remote pe GitHub
+                folosind comanda <span>git remote add origin [URL]</span>.
+              </li>
+              <li>
+                Trimite modificările către GitHub folosind comanda
+
+                <span style="color: red">git push -u origin master</span>
+              </li>
+            </ol>
+          </div>
+          <div class="column right-column">
+            <h2>Exemplu de creare a unui repository</h2>
+            <div class="cmdprompt">
+              <p>cd path/to/your/project</p>
+              <p>git init</p>
+              <p>git add .</p>
+              <p>git commit -m "Initial commit"</p>
+              <p>
+                git remote add origin https://github.com/username/repository.git
+              </p>
+              <p>git push -u origin master</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

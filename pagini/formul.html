@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <title>Formulare</title>
+    <link rel="stylesheet" href="formul.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="navContainer">
+      <ul class="navbar">
+        <li><a href="/index.html">Acasa</a></li>
+        <li><a href="css.html">CSS</a></li>
+        <li><a href="despre.html">Despre pagina noastra</a></li>
+        <li><a href="tabele.html">Tabele</a></li>
+        <li><a href="GitandGithub.html">GitandGitHub</a></li>
+      </ul>
+    </div>
+    <section class="resContainer">
+      <h1>Formular</h1>
+      <div class="mainContainer">
+        <form action="">
+          <div class="form-group">
+            <label for="nume">Numele</label>
+            <input type="text" placeholder="Introduceti numele" id="nume" />
+          </div>
+          <div class="form-group">
+            <label for="prenume">Prenumele</label>
+            <input
+              type="text"
+              placeholder="Introduceti prenumele"
+              id="prenume"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" placeholder="Introduceti email" id="email" />
+          </div>
+          <div class="form-group">
+            <label for="parola">Parola</label>
+            <input
+              type="password"
+              placeholder="Introduceti parola"
+              id="parola"
+            />
+          </div>
+          <div class="form-group">
+            <label for="bifaCampanie"
+              >Trimite campanii de marketing pe email</label
+            >
+            <input type="checkbox" id="bifaCampanie" />
+          </div>
+          <div class="form-group">
+            <label>Sunteti de acord cu procesarea datelor personale?</label>
+            <div>
+              <label for="procesareDateDa">Da</label>
+              <input type="radio" name="procesareDate" id="procesareDateDa" />
+              <label for="procesareDateNu">Nu</label>
+              <input type="radio" name="procesareDate" id="procesareDateNu" />
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="submit" value="Trimite" />
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
